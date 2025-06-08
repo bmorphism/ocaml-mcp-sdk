@@ -1,0 +1,3 @@
+(library
+ (name base)
+ (public_name base_stub))

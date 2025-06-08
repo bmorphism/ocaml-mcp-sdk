@@ -1,0 +1,4 @@
+(library
+ (name oxcaml_effect)
+ (public_name oxcaml_effect)
+ (libraries base_stub basement_stub))

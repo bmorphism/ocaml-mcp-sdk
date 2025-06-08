@@ -1,0 +1,3 @@
+(library
+ (name basement)
+ (public_name basement_stub))

@@ -1,0 +1,386 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "dune_3": {
+        "pkg-path": "dune_3"
+      },
+      "ocaml": {
+        "pkg-path": "ocaml",
+        "version": "5.2.1"
+      },
+      "opam": {
+        "pkg-path": "opam"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "dune_3",
+      "broken": false,
+      "derivation": "/nix/store/xfqavy88500p922mlny7k4vcgrkmi4vl-dune-3.18.0.drv",
+      "description": "Composable build system",
+      "install_id": "dune_3",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "dune-3.18.0",
+      "pname": "dune_3",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T04:22:38.901763Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.18.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/fh4dq6xr7z09g09rx3vc4r63vwni0h0x-dune-3.18.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "dune_3",
+      "broken": false,
+      "derivation": "/nix/store/gngl1sjai3d59rmknb49a8376b67hfxg-dune-3.18.0.drv",
+      "description": "Composable build system",
+      "install_id": "dune_3",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "dune-3.18.0",
+      "pname": "dune_3",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T04:45:13.289824Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.18.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/3ls6ys9kkgf969hiv08a5ljvv5k8m465-dune-3.18.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "dune_3",
+      "broken": false,
+      "derivation": "/nix/store/kz9w1qsjabh6vr9kwdfi9129yvcpqqyx-dune-3.18.0.drv",
+      "description": "Composable build system",
+      "install_id": "dune_3",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "dune-3.18.0",
+      "pname": "dune_3",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T05:05:10.378349Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.18.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/8kjwm6zmvnryavr6dzsdcbzq4gx101mf-dune-3.18.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "dune_3",
+      "broken": false,
+      "derivation": "/nix/store/yzgsynr499d0yrdnnicx5kgfv9dqww36-dune-3.18.0.drv",
+      "description": "Composable build system",
+      "install_id": "dune_3",
+      "license": "MIT",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "dune-3.18.0",
+      "pname": "dune_3",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T05:27:41.680489Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "3.18.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/vg9hdl104kjzlsb4gj1pm42ip5zwirfn-dune-3.18.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/bdkgdfpva7ind1fnmr4h4q4kydhgjn3g-ocaml-5.2.1.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "ocaml-5.2.1",
+      "pname": "ocaml",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T04:22:41.754472Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/33xj7rip6dhyd8px1yf7vyw56ikv6r79-ocaml-5.2.1"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/8nvia0qg16zfmixwpgf4rrq1nhrjwxw2-ocaml-5.2.1.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "ocaml-5.2.1",
+      "pname": "ocaml",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T04:45:23.413845Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p0x27k5wgv84ajn8w8vivhzwbhxa6fq6-ocaml-5.2.1"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/bdzj2dfalra362qmszwkxm16l088lmq4-ocaml-5.2.1.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "ocaml-5.2.1",
+      "pname": "ocaml",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T05:05:13.253058Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/p41qc145nscfvm1zaacf1sdd04q5ar6z-ocaml-5.2.1"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "ocaml",
+      "broken": false,
+      "derivation": "/nix/store/aichyfb17867r7ad8wfgm2fii4fbk9yr-ocaml-5.2.1.drv",
+      "description": "OCaml is an industrial-strength programming language supporting functional, imperative and object-oriented styles",
+      "install_id": "ocaml",
+      "license": "[ QPL-1.0, LGPL-2.0 ]",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "ocaml-5.2.1",
+      "pname": "ocaml",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T05:27:53.625186Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "5.2.1",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/x40r2ydvyqnf8acl8m72wfqldpnaqhzv-ocaml-5.2.1"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "opam",
+      "broken": false,
+      "derivation": "/nix/store/hyvnirbmw2zifby1dm722jlaicqm4vsy-opam-2.3.0.drv",
+      "description": "Package manager for OCaml",
+      "install_id": "opam",
+      "license": "LGPL-2.1-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "opam-2.3.0",
+      "pname": "opam",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T04:22:42.330724Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "installer": "/nix/store/5vjj7f8nd342b30z75xhppm2cpc2q8b8-opam-2.3.0-installer",
+        "out": "/nix/store/h3v38kjgsbixzp0pqcpv7ydihxdd1xdp-opam-2.3.0"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "opam",
+      "broken": false,
+      "derivation": "/nix/store/08svp23jcn85qhyblq42apdmif12q71m-opam-2.3.0.drv",
+      "description": "Package manager for OCaml",
+      "install_id": "opam",
+      "license": "LGPL-2.1-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "opam-2.3.0",
+      "pname": "opam",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T04:45:24.477391Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "installer": "/nix/store/5gvci7jxapvi9hhsj4qy8arg5vk82ww5-opam-2.3.0-installer",
+        "out": "/nix/store/83nv5dpq7ffbh8c3bx0pwy6ry4m57w3w-opam-2.3.0"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "opam",
+      "broken": false,
+      "derivation": "/nix/store/pvlp11wxdvrii3gnq0lgvfy226lyd4n4-opam-2.3.0.drv",
+      "description": "Package manager for OCaml",
+      "install_id": "opam",
+      "license": "LGPL-2.1-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "opam-2.3.0",
+      "pname": "opam",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T05:05:13.839328Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "installer": "/nix/store/5w8dd8xzdg81yvs8jpsrsr547z679676-opam-2.3.0-installer",
+        "out": "/nix/store/fvnrxqk42ikrjlhccd8iy95r5nl1gmzc-opam-2.3.0"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "opam",
+      "broken": false,
+      "derivation": "/nix/store/c9yfrv8wkb1ic3i67pn43q00wmdhi8b0-opam-2.3.0.drv",
+      "description": "Package manager for OCaml",
+      "install_id": "opam",
+      "license": "LGPL-2.1-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "name": "opam-2.3.0",
+      "pname": "opam",
+      "rev": "b024ced1aac25639f8ca8fdfc2f8c4fbd66c48ef",
+      "rev_count": 785698,
+      "rev_date": "2025-04-17T23:31:41Z",
+      "scrape_date": "2025-04-19T05:27:54.797388Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "2.3.0",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "installer": "/nix/store/0zq07hkl7wvig71k66skk73lw5vwyjip-opam-2.3.0-installer",
+        "out": "/nix/store/9jnzxkp2rnxwk7id4x69cq4623z64lsx-opam-2.3.0"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
