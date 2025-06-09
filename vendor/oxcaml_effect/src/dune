@@ -1,3 +1,6 @@
-(library
- (name oxcaml_effect)
- (libraries base basement))
+; Temporarily disabled due to signature issues
+; (library
+;  (name oxcaml_effect)
+;  (libraries unix)
+;  (modules effect)
+;  (flags :standard -w -32-33-34-37))

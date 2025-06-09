@@ -1,9 +1,10 @@
-(executable
- (public_name mcp_client_example)
- (name client_example)
- (libraries ocaml_mcp_sdk))
+; Disabled until we have full modules
+; (executable
+;  (public_name mcp_client_example)
+;  (name client_example)
+;  (libraries ocaml_mcp_sdk))
 
-(executable
- (public_name mcp_server_example)
- (name server_example)
- (libraries ocaml_mcp_sdk))
+; (executable
+;  (public_name mcp_server_example)
+;  (name server_example)
+;  (libraries ocaml_mcp_sdk))

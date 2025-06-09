@@ -1,0 +1,4 @@
+(executable
+ (public_name signal-effects-demo)
+ (name signal_standalone_demo)
+ (libraries ocaml_mcp_sdk))

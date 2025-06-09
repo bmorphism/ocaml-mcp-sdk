@@ -1,6 +1,4 @@
 (library
  (name ocaml_mcp_sdk)
- (libraries oxcaml_effect yojson unix)
- (library_flags -linkall)
- (modules modes mcp_effect stdio_transport protocol_handler mcp_client mcp_server)
- (flags :standard -extension mode))
+ (libraries unix)
+ (modules signal_effects_demo))

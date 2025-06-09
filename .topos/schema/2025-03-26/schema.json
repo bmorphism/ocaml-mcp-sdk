@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Placeholder file. The full schema could not be fetched automatically in the offline execution environment.\n\nTo refresh, run `just update-schema` (see .topos/README.md).",
+  "title": "Model Context Protocol – 2025-03-26 snapshot (placeholder)",
+  "type": "object",
+  "additionalProperties": true
+}
+
