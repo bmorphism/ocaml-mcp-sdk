@@ -1,4 +1,6 @@
 (executable
- (public_name signal-effects-demo)
- (name signal_standalone_demo)
- (libraries ocaml_mcp_sdk))
+ (name main)
+ (public_name mcp-demo)
+ (libraries mcp core core_unix)
+ (preprocess
+  (pps ppx_jane)))

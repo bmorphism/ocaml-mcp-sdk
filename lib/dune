@@ -1,4 +1,6 @@
 (library
- (name ocaml_mcp_sdk)
- (libraries unix)
- (modules signal_effects_demo))
+ (name mcp)
+ (public_name mcp)
+ (libraries core core_unix yojson)
+ (preprocess
+  (pps ppx_jane)))
