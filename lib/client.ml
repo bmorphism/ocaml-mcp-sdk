@@ -4,7 +4,7 @@ module Server_info = struct
   type t =
     { name : string
     ; version : string
-    ; capabilities : Yojson.Safe.t option
+    ; capabilities : Json_sexp.json option [@sexp.option]
     }
   [@@deriving sexp_of]
 end

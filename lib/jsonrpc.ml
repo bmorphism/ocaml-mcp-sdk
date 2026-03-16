@@ -14,7 +14,7 @@ module Error_info = struct
   type t =
     { code : int
     ; message : string
-    ; data : Yojson.Safe.t option
+    ; data : Json_sexp.json option [@sexp.option]
     }
   [@@deriving sexp_of]
 
@@ -57,20 +57,20 @@ end
 module Message = struct
   type t =
     | Request of
-        { id : Yojson.Safe.t
+        { id : Json_sexp.json
         ; method_ : string
-        ; params : Yojson.Safe.t option
+        ; params : Json_sexp.json option [@sexp.option]
         }
     | Notification of
         { method_ : string
-        ; params : Yojson.Safe.t option
+        ; params : Json_sexp.json option [@sexp.option]
         }
     | Response of
-        { id : Yojson.Safe.t
-        ; result : Yojson.Safe.t
+        { id : Json_sexp.json
+        ; result : Json_sexp.json
         }
     | Error of
-        { id : Yojson.Safe.t option
+        { id : Json_sexp.json option [@sexp.option]
         ; error : Error_info.t
         }
   [@@deriving sexp_of]

@@ -41,7 +41,7 @@ end
 module Query_result = struct
   type t =
     { status : string
-    ; rows : Yojson.Safe.t list
+    ; rows : Json_sexp.json list
     ; query_time_ms : float
     }
   [@@deriving sexp_of]

@@ -1,0 +1,6 @@
+(library
+ (name mcp_test)
+ (libraries mcp core core_unix)
+ (inline_tests)
+ (preprocess
+  (pps ppx_jane)))

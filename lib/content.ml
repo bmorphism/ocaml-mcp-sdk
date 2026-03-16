@@ -107,6 +107,8 @@ type t =
 [@@deriving sexp, compare]
 
 let text ?annotations s = Text (Text.create ?annotations s)
+let image ?annotations ~data ~mime_type () = Image { data; mime_type; annotations }
+let audio ?annotations ~data ~mime_type () = Audio { data; mime_type; annotations }
 
 let to_yojson = function
   | Text { text; annotations } ->
